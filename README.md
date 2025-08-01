@@ -14,4 +14,4 @@ git clone https://github.com/ULuvlemonaidd/IOSnet
 
 cd IOSnet
 
-python3 iosnet.py
+python3 IOSnet.py
